@@ -1,0 +1,23 @@
+div>p {
+    color: blue;
+    font-size: 2rem;
+}
+
+.green {
+    color: green !important;
+    font-size: 2rem !important;
+}
+
+p{
+    color: blue;
+    font-size: 1rem;
+}
+
+:lang(es) {
+    color: black;
+    font-size: 1rem;
+}
+
+#wrapper{
+    background-color: #d3d3d3;
+}
