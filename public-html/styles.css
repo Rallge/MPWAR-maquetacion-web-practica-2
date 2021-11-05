@@ -1,23 +1,28 @@
-div>p {
-    color: blue;
-    font-size: 2rem;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.green {
-    color: green !important;
-    font-size: 2rem !important;
+header > h1{
+background-color: #0276b5;
 }
 
-p{
-    color: blue;
+nav {
+    background-color: #00b4d8;
+}
+
+header>h2{
+    background-color: #90e1ef;
     font-size: 1rem;
+    font-weight: bold;
 }
 
-:lang(es) {
-    color: black;
+.articulo1{
+    border-right: 3px solid #90e1ef;
+}
+
+footer{
+    background-image: url("https://picsum.photos/seed/MPWAR/1920/1080");
+    background-repeat: no-repeat;
     font-size: 1rem;
-}
-
-#wrapper{
-    background-color: #d3d3d3;
+    font-weight: bold;
 }
