@@ -128,7 +128,7 @@ header.anuncio-molesto{
   text-align: center;
 }
 
-article {
+main {
   column-count: 2;
   column-gap: 50px;
   column-rule: 3px solid #90e1ef;
