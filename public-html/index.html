@@ -1,100 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica 2 - CSS</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Practica 2 - CSS</title>
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
-  <header>
-    <h1>Marca chula que hace cosas chulas<sup>TM</sup></h1>
-  </header>
-  <nav>
-    <div><a href="https://picsum.photos/seed/MPWAR/1920/1080">Enlace</a></div>
-    <div><a href="https://picsum.photos/seed/MPWAR/1920/1080">Enlace</a></div>
-    <div><a href="https://picsum.photos/seed/MPWAR/1920/1080">Enlace</a></div>
-    <div><a href="https://picsum.photos/seed/MPWAR/1920/1080">Enlace</a></div>
-  </nav>
-  <section>
-    <header>
-      <h2>Esto es un anuncio molesto que se quedará en la parte superior</h2>
+  <body>
+    <header class="marca-chula">
+      <h1>Marca chula que hace cosas chulas<sup class="tm">TM</sup></h1>
     </header>
-    <article class="articulo1">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Adipisci atque, aut consectetur consequuntur
-        corporis, delectus deleniti dolores es excepturi
-        exercitationem harum hic impedit incidunt laborum
-        laudantium maiores nam necessitatibus nemo
-        nesciunt nisi perferendis placeat que quaerat
-        quas, quidem quod veritatis?</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Adipisci atque, aut consectetur conseguuntur
-        corporis, delectus deleniti dolores es excepturi
-        exercitationem harum hic impedit incidunt laborum
-        laudantium maiores nam necessitatibus nemo
-        nesciunt nisi perferendis placeat que quaerat
-        quas, quidem quod veritatis?</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Adipisci atque, aut consectetur consequuntur
-        corporis, delectus deleniti dolores es excepturi
-        exercitationem harum hic impedit incidunt laborum
-        laudantium maiores nam necessitatibus nemo
-        nesciunt nisi perferendis placeat que quaerat
-        quas, quidem quod veritatis?</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Adipisci atque, aut consectetur conseguuntur
-        corporis, delectus deleniti dolores es excepturi
-        exercitationem harum hic impedit incidunt laborum
-        laudantium maiores nam necessitatibus nemo
-        nesciunt nisi perferendis placeat que quaerat
-        quas, quidem quod veritatis?</p>
-    </article>
-    <article>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Adipisci atque, aut consectetur consequuntur
-        corporis, delectus deleniti dolores es excepturi
-        exercitationem harum hic impedit incidunt laborum
-        laudantium maiores nam necessitatibus nemo
-        nesciunt nisi perferendis placeat que quaerat
-        quas, quidem quod veritatis?</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Adipisci atque, aut consectetur conseguuntur
-        corporis, delectus deleniti dolores es excepturi
-        exercitationem harum hic impedit incidunt laborum
-        laudantium maiores nam necessitatibus nemo
-        nesciunt nisi perferendis placeat que quaerat
-        quas, quidem quod veritatis?</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Adipisci atque, aut consectetur consequuntur
-        corporis, delectus deleniti dolores es excepturi
-        exercitationem harum hic impedit incidunt laborum
-        laudantium maiores nam necessitatibus nemo
-        nesciunt nisi perferendis placeat que quaerat
-        quas, quidem quod veritatis?</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Adipisci atque, aut consectetur conseguuntur
-        corporis, delectus deleniti dolores es excepturi
-        exercitationem harum hic impedit incidunt laborum
-        laudantium maiores nam necessitatibus nemo
-        nesciunt nisi perferendis placeat que quaerat
-        quas, quidem quod veritatis?</p>
-    </article>
-    <footer>
-      Hecho con &hearts; en BCN © La Salle -URL </footer>
-  </section>
-
-</body>
-
+    <nav>
+      <div class="boton-enlace uno">
+        <a href="https://picsum.photos/seed/MPWAR/1920/1080">Enlace</a>
+      </div>
+      <div class="boton-enlace dos">
+        <a href="https://picsum.photos/seed/MPWAR/1920/1080">Enlace</a>
+      </div>
+      <div class="boton-enlace tres">
+        <a href="https://picsum.photos/seed/MPWAR/1920/1080">Enlace</a>
+      </div>
+      <div class="boton-enlace cuatro">
+        <a href="https://picsum.photos/seed/MPWAR/1920/1080">Enlace</a>
+      </div>
+    </nav>
+    <section>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          atque, aut consectetur consequuntur corporis, delectus deleniti
+          dolores es excepturi exercitationem harum hic impedit incidunt laborum
+          laudantium maiores nam necessitatibus nemo nesciunt nisi perferendis
+          placeat que quaerat quas, quidem quod veritatis? Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Adipisci atque, aut consectetur
+          conseguuntur corporis, delectus deleniti dolores es excepturi
+          exercitationem harum hic impedit incidunt laborum laudantium maiores
+          nam necessitatibus nemo nesciunt nisi perferendis placeat que quaerat
+          quas, quidem quod veritatis?
+        </p>
+        &nbsp; &nbsp;
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          atque, aut consectetur consequuntur corporis, delectus deleniti
+          dolores es excepturi exercitationem harum hic impedit incidunt laborum
+          laudantium maiores nam necessitatibus nemo nesciunt nisi perferendis
+          placeat que quaerat quas, quidem quod veritatis? Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Adipisci atque, aut consectetur
+          conseguuntur corporis, delectus deleniti dolores es excepturi
+          exercitationem harum hic impedit incidunt laborum laudantium maiores
+          nam necessitatibus nemo nesciunt nisi perferendis placeat que quaerat
+          quas, quidem quod veritatis?
+        </p>
+        &nbsp; &nbsp;
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          atque, aut consectetur consequuntur corporis, delectus deleniti
+          dolores es excepturi exercitationem harum hic impedit incidunt laborum
+          laudantium maiores nam necessitatibus nemo nesciunt nisi perferendis
+          placeat que quaerat quas, quidem quod veritatis? Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Adipisci atque, aut consectetur
+          conseguuntur corporis, delectus deleniti dolores es excepturi
+          exercitationem harum hic impedit incidunt laborum laudantium maiores
+          nam necessitatibus nemo nesciunt nisi perferendis placeat que quaerat
+          quas, quidem quod veritatis?
+        </p>
+        &nbsp; &nbsp;
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          atque, aut consectetur consequuntur corporis, delectus deleniti
+          dolores es excepturi exercitationem harum hic impedit incidunt laborum
+          laudantium maiores nam necessitatibus nemo nesciunt nisi perferendis
+          placeat que quaerat quas, quidem quod veritatis? Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Adipisci atque, aut consectetur
+          conseguuntur corporis, delectus deleniti dolores es excepturi
+          exercitationem harum hic impedit incidunt laborum laudantium maiores
+          nam necessitatibus nemo nesciunt nisi perferendis placeat que quaerat
+          quas, quidem quod veritatis?
+        </p>
+      </article>
+      <header class="anuncio-molesto">
+        <h2>Esto es un anuncio molesto que se quedará en la parte superior</h2>
+      </header>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          atque, aut consectetur consequuntur corporis, delectus deleniti
+          dolores es excepturi exercitationem harum hic impedit incidunt laborum
+          laudantium maiores nam necessitatibus nemo nesciunt nisi perferendis
+          placeat que quaerat quas, quidem quod veritatis? Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Adipisci atque, aut consectetur
+          conseguuntur corporis, delectus deleniti dolores es excepturi
+          exercitationem harum hic impedit incidunt laborum laudantium maiores
+          nam necessitatibus nemo nesciunt nisi perferendis placeat que quaerat
+          quas, quidem quod veritatis?
+        </p>
+        &nbsp; &nbsp;
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          atque, aut consectetur consequuntur corporis, delectus deleniti
+          dolores es excepturi exercitationem harum hic impedit incidunt laborum
+          laudantium maiores nam necessitatibus nemo nesciunt nisi perferendis
+          placeat que quaerat quas, quidem quod veritatis? Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Adipisci atque, aut consectetur
+          conseguuntur corporis, delectus deleniti dolores es excepturi
+          exercitationem harum hic impedit incidunt laborum laudantium maiores
+          nam necessitatibus nemo nesciunt nisi perferendis placeat que quaerat
+          quas, quidem quod veritatis?
+        </p>
+        &nbsp; &nbsp;
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          atque, aut consectetur consequuntur corporis, delectus deleniti
+          dolores es excepturi exercitationem harum hic impedit incidunt laborum
+          laudantium maiores nam necessitatibus nemo nesciunt nisi perferendis
+          placeat que quaerat quas, quidem quod veritatis? Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Adipisci atque, aut consectetur
+          conseguuntur corporis, delectus deleniti dolores es excepturi
+          exercitationem harum hic impedit incidunt laborum laudantium maiores
+          nam necessitatibus nemo nesciunt nisi perferendis placeat que quaerat
+          quas, quidem quod veritatis?
+        </p>
+        &nbsp; &nbsp;
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          atque, aut consectetur consequuntur corporis, delectus deleniti
+          dolores es excepturi exercitationem harum hic impedit incidunt laborum
+          laudantium maiores nam necessitatibus nemo nesciunt nisi perferendis
+          placeat que quaerat quas, quidem quod veritatis? Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Adipisci atque, aut consectetur
+          conseguuntur corporis, delectus deleniti dolores es excepturi
+          exercitationem harum hic impedit incidunt laborum laudantium maiores
+          nam necessitatibus nemo nesciunt nisi perferendis placeat que quaerat
+          quas, quidem quod veritatis?
+        </p>
+      </article>
+      <footer>Hecho con &hearts; en BCN © La Salle -URL</footer>
+    </section>
+  </body>
 </html>
