@@ -1,18 +1,5 @@
 # MW010_Maquetación web [2021/22]
 
-## Dockerfile
-
-In the project, you need to put your index.html in the directory /public-html and later, into the directory 
-mpwar-maquetacion-web.
-
-Then, run the commands to build and run the Docker image:
-
-```
-$ docker build -t mpwar-maquetacion-web-practica-2 .
-$ docker run -dit --name maquetacion-web-app -p 3000:80 mpwar-maquetacion-web-practica-2 
-
-```
-
 ## Ejercicio Nº2
 
 Crear una página web tal y como aparece en el archivo P2.png utilizando todo lo aprendido sobre HTML y CSS, e investigando cuando sea necesario.
